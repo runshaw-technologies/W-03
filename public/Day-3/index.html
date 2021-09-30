@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My New Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <style>
+        .sectionbg {
+            background-image: url('bg.jpg');
+            background-size: cover;
+        }
+        .h1data {
+            position: absolute;
+            text-align: center;
+            top: 40%;
+            left: 5%;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Web Design</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#topsection">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#aboutus">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#contact">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <section id="topsection" class="sectionbg" style="height: 100vh;">
+        <h1 class="h1data">Welcome to my Web Design & Developmemt Sessions!</h1>
+    </section>
+    <section id="services">
+        <div class="container">
+          <div style="padding: 10%;">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+          <div style="padding: 10%;">
+            <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, earum ea atque corrupti eaque consequuntur. Suscipit, et debitis. Ad ipsam laborum magni eligendi. Architecto molestiae porro recusandae totam ex consectetur.</p>
+            <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, earum ea atque corrupti eaque consequuntur. Suscipit, et debitis. Ad ipsam laborum magni eligendi. Architecto molestiae porro recusandae totam ex consectetur.</p>
+            <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, earum ea atque corrupti eaque consequuntur. Suscipit, et debitis. Ad ipsam laborum magni eligendi. Architecto molestiae porro recusandae totam ex consectetur.</p>
+          </div>
+        </div>
+    </section>
+    <section id="aboutus" style="height: 100vh; background-color: rgb(220, 222, 226);">
+        <div class="container">
+            <div style="padding: 10%;">
+              <h3>About Us</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas totam illum nemo architecto rerum placeat accusantium provident ipsum fuga possimus iusto odit, sequi accusamus voluptates nihil eaque a! Possimus, quam!</p>
+            </div>
+            <div style="padding: 10%;">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Larry the Bird</td>
+                    <td>@twitter</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        </div>
+    </section>
+    <section style="height: 100vh; background-color: ghostwhite;">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="bg.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="bg.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="bg.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section id="contact" style="height: 100vh; background-color: rgb(220, 222, 226);">
+        <div class="container">
+            <div class="row">
+              <h1 style="text-align: center; padding-top: 10%;">Contact Us</h1>
+            </div>
+            <div style="padding: 10%;">
+              <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Full Name</label>
+                  <input type="text" class="form-control" id="name">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="mobile" class="form-label">Mobile No.</label>
+                  <input type="text" class="form-control" id="mobile">
+                </div>
+                <div class="mb-3">
+                  <label for="subject" class="form-label">Subject</label>
+                  <input type="text" class="form-control" id="subject">
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <input type="text" class="form-control" id="message">
+                  <!-- <textarea name="" id="message" rows="3"></textarea> -->
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form></div>
+        </div>
+    </section>
+    <!-- <section style="height: 100vh;">
+        <div class="container">
+            <div class="row">
+                <div class="col" style="background-color: teal;">
+                    <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                </div>
+                <div class="col" >
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td colspan="2">Larry the Bird</td>
+                            <td>@twitter</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>

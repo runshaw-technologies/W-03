@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let name = "Ilya";
+
+        // alert( `hello ${1}` ); 
+        // // hello 1
+
+        // alert( `hello ${"name"}` );
+
+        // alert( `hello ${name}` ); 
+
+        // function myFun() {}
+
+
+        // Method 1
+        // This 
+        let user = {
+            name: "John",
+            age: 50
+        };
+
+        user.sayHi() = function() {
+            alert("Hello");
+        }
+
+        user.sayHi();
+        // A function that is a property of an object is called its method.
+
+
+        // Method 2
+         // This 
+         let user = {
+            // name: "John",
+            // age: 50
+        };
+
+        // First declare
+        function sayHi() {
+            alert("Hello");
+        }
+
+        // used as a method
+        user.sayHi() = sayHi;
+
+        user.sayHi();
+        // A function that is a property of an object is called its method.
+
+
+        // Syntax of Method
+        user = {
+            sayHi: function() {
+                alert("Hello");
+            }
+        };
+
+        user = {
+            // same as "sayHi: function() {alert("Hello");}"
+            sayHi() {
+                alert("Hello");
+            }
+        };
+
+
+
+        // this in Methods
+        let user = {
+            name: "John",
+            age: 60,
+
+            sayHi() {
+                // "this" is the "current object"
+                alert(this.name);
+            }
+        };
+
+        user.sayHi();
+
+
+
+
+
+
+        // Class Syntax
+        // class MyClass {
+        //     constructor() {}
+
+        //     method() {}
+        //     method1() {}
+        // }
+
+
+        // Example 
+        // class User {
+        //     constructor(name) {
+        //         this.name = name;
+        //     }
+
+        //     // CURD - Create, Update, Read & Delete
+        //     sayHi() {
+        //         alert(this.name);
+        //     }
+        // }
+
+        // calling method from a class
+        // let user = new User("John");
+        // user.sayHi();
+    </script>
+</body>
+</html>
